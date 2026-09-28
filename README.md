@@ -1,5 +1,18 @@
 # Inherited reactor notebook
 
+## Workshop 1 working history
+
+Use the [`workshop1` branch](https://github.com/QZhao16/cstr-project/tree/workshop1)
+for ongoing work. Read the [editing workflow](docs/workflow.md),
+[research log](docs/research-log.md), and [current handoff](docs/handoff.md).
+Each meaningful change is recorded with its reason, checks, and a Git commit.
+
+The [provisional baseline](results/baseline/) contains the original computation's
+saved results. Its code ran in a fresh Python process; Jupyter kernel verification
+is still pending. See the [audit](docs/audit.md) for scientific and numerical limits.
+
+## Original handoff
+
 A former student left this notebook and a parameter file. Your job is to make a project another researcher can run, inspect, test, and extend. Start in the folder containing this README; the notebook writes to `results/` relative to that folder. In VS Code, open this whole `cstr-project/` folder as the workspace before running the notebook. In a notebook cell, run `from pathlib import Path; print(Path.cwd()); print(Path('results').is_dir())`; it should show this folder and `True`. If it does not, launch `jupyter lab` from a terminal in `cstr-project/`.
 
 Read `notebooks/cstr_exploration.ipynb` before editing it. It describes a teaching model of a cooled, nonisothermal CSTR. The values in `data/reactor_parameters.yml` are a second copy of the parameters, useful for an audit; the notebook currently types them in directly. No environment, package, or tests are supplied in this handoff.

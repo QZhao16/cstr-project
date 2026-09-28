@@ -1,0 +1,23 @@
+Cell 1: C:\softwares\Anaconda\Install\Lib\site-packages\pandas\core\arrays\masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+numpy 1.24.3 | pandas 2.3.2
+
+Cell 3: 
+Cell 5: [-9.596055627915197, -220197.21860424016]
+
+Cell 7: flag 1 The solution converged.
+CA = 0.954723 mol/L
+X  = 0.045277
+T  = 311.9590 K
+residual norm = 9.895e-10
+
+Cell 9: 3 distinct steady states at Tc = 300 K
+
+  branch 0:  CA = 0.954723 mol/L   X = 0.045277   T = 311.9590 K   |F| = 9.90e-10
+  branch 1:  CA = 0.519264 mol/L   X = 0.480736   T = 348.9249 K   |F| = 2.20e-07
+  branch 2:  CA = 0.092763 mol/L   X = 0.907237   T = 385.1305 K   |F| = 5.96e-08
+
+Cell 11: 145 rows for 61 coolant temperatures
+three steady states at 42 of 61 conditions, for Tc between 290.5 and 311 K
+
+Cell 13: wrote results/steady_states.csv and results/steady_state_locus.png

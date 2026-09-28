@@ -1,0 +1,9 @@
+.runtime/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,3 @@
+# Preserve recorded baseline bytes so the SHA-256 evidence remains verifiable.
+results/baseline/** -text whitespace=cr-at-eol,-blank-at-eol
+results/conda-list.txt -text whitespace=cr-at-eol

@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-09-28T20:40:34.473943+00:00",
+  "working_directory": "C:\\softwares\\Codex\\workshop1_notebook\\cstr-project",
+  "python_executable": "C:\\softwares\\Anaconda\\Install\\python.exe",
+  "python_version": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.24.3",
+    "scipy": "1.11.1",
+    "pandas": "2.3.2",
+    "matplotlib": "3.7.2",
+    "PyYAML": "6.0",
+    "nbclient": "0.5.13",
+    "nbformat": "5.9.2",
+    "ipykernel": "6.25.0",
+    "jupyterlab": "3.6.3",
+    "pytest": "7.4.0"
+  },
+  "source_sha256": {
+    "notebooks/cstr_exploration.ipynb": "9a189e0bf0ad7455bad4e596d23828368508051779e4f6c83e34bbfcf0be7f74",
+    "data/reactor_parameters.yml": "1b3ecc1620a379756ed4734b2dec8ea0ad0b99a1e59e29333fbb735c3657ad71"
+  },
+  "output_sha256": {
+    "cstr_exploration.original.ipynb": "9a189e0bf0ad7455bad4e596d23828368508051779e4f6c83e34bbfcf0be7f74",
+    "execution.txt": "1e5c5a9fffc70a95307e5222868cc97b38330bfd0bf02fc1a1aa27030c27b4c2",
+    "steady_states.csv": "a6fd6848d10de4ed719ddd0ad4b1e3ba93559d2690cd5017ff5813e19c9551e5",
+    "steady_state_locus.png": "a282b54c5363316924132fb7d06159fd7e7dd797db641629be1d236707a92470"
+  },
+  "execution": "Fresh Python process; unchanged code cells executed in order. No Jupyter kernel; rich displays and notebook kernel execution are unverified."
+}
